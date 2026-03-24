@@ -1,0 +1,34 @@
+@media (min-width: 768px) {
+  nav {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #menu-toggle {
+    display: none;
+    background-color: aqua;
+  }
+
+  #main-nav {
+    display: flex !important;
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  #main-nav li {
+    margin: 0;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+  .about-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .service-cards {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
